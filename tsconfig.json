@@ -1,0 +1,22 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "module": "commonjs",
+      "experimentalDecorators": true,
+      "target": "es5",
+      "lib": [
+        "es5",
+        "dom"
+      ],
+      "types": [
+        "cypress",
+        "node",
+        "../cypress-testing-library/typings"
+      ]
+    },
+    "include": [
+      "cypress/**/*.ts",
+      "src/**/*.ts"
+    ]
+  }

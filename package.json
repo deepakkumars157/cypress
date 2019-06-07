@@ -1,0 +1,28 @@
+{
+  "name": "dkcypress",
+  "version": "1.0.0",
+  "description": "my framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cypress/webpack-preprocessor": "^4.0.3",
+    "@types/node": "^10.12.30",
+    "cypress-cucumber-preprocessor": "^1.11.0",
+    "cypress-testing-library": "^2.3.6",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.2.3"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "cypress": "^3.3.1"
+  }
+}
